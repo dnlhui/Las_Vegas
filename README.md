@@ -17,11 +17,20 @@ I processed the data through a variety of tools. The Microsoft data came in the 
 
 I created 200 meter x 200 meter images of every neighborhood in Las Vegas using automated batch processing in Adobe Photoshop. However, this neighborhood data was not labelled. I turned to zoning maps from Las Vegas municipalities to programmatically assign labels to each image based on zoning type.
 
-Las Vegas - https://www.lasvegasnevada.gov/Business/Planning-Zoning/Master-Plan/Land-Use-Environment
-Henderson - http://www.cityofhenderson.com/community-development/land-use-plans/comprehensive-plan
-North Las Vegas - http://www.cityofnorthlasvegas.com/departments/city_manager/about_our_city/city_maps.php
-Paradise - https://www.clarkcountynv.gov/comprehensive-planning/land-use/Pages/WinchesterParadiseLandUsePlan.aspx 
-Spring Valley -  https://www.clarkcountynv.gov/comprehensive-planning/land-use/Pages/SpringValleyLandUsePlan.aspx
+Las Vegas
+https://www.lasvegasnevada.gov/Business/Planning-Zoning/Master-Plan/Land-Use-Environment
+
+Henderson
+http://www.cityofhenderson.com/community-development/land-use-plans/comprehensive-plan
+
+North Las Vegas
+http://www.cityofnorthlasvegas.com/departments/city_manager/about_our_city/city_maps.php
+
+Paradise
+https://www.clarkcountynv.gov/comprehensive-planning/land-use/Pages/WinchesterParadiseLandUsePlan.aspx 
+
+Spring Valley
+https://www.clarkcountynv.gov/comprehensive-planning/land-use/Pages/SpringValleyLandUsePlan.aspx
 
 I trained a Convolutional Neural Network to predict zoning classifications based on the images. The image to the left shows examples of where the model correctly classified images as low density residential, and where it misclassified as medium or high density residential. In each case, it is identifying housing that was built in excess compared to typical low density residential housing. Either houses were physically larger, or houses were more closely spaced together.
 
